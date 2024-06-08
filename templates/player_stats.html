@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> {{ player_name }}'s Stats </title> <!-- injects player name into here-->
+    </head>
+
+    <body>
+        <h1> {{ player_name }}'s Stats </h1>
+        <ul> 
+            <li> Points: {{ stats.points }} </li>
+            <li> Rebounds: {{ stats.rebounds }} </li>
+            <li> Assists: {{ stats.assists }} </li>
+        </ul>
+        <a href="/"> Search again </a>
+    </body>
+</html>
